@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  gap: 0 40px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0;
+  align-items: center;
+  
+}
+
+.debug{
+  background-color: rgba(255, 0, 0, .5);
+  border: 2px solid red;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #395CD9;
+  height: 100px; /* eliminare*/
+}
+
+header .logo, .nav, .btn{
+  font-weight: bold;
+  padding: 5px;
+  height: 34;
+}
+header .logo{
+  background-color: rgb(156, 156, 11);
+}
+
+header .nav{
+  background-color: rgb(250, 142, 0);
+}
+
+header .btn{
+  background-color: rgb(211, 15, 15);
+}
+
+.jumbotron{
+  color: black;
+  display: flex;
+  align-items: center;
+  background-color: #1333a7;
+  height: 400px;/*da eliminare*/
+}
+
+main .jumbotron .cont-jumb{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  background-color: antiquewhite;
+  height: 70%;
+  text-align: center;
+}
+
+main .jumbotron .cont-jumb span{
+  background-color: red;
+
+}
+
+main section.row-odd,
+main section.row-even{
+  display: flex;
+}
+
+main section.row-even{
+  background-color: #F6F6F6;
+}
+
+main section span#img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 150px;
+  background-color: rgb(0, 180, 235);
+}
+
+main section .description{
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  background-color: rgb(0, 180, 235);
+  padding: 20px 0;
+}
+
+
+main section .alto{
+  padding: 10px 0;
+  text-align: center;
+  background-color: #1333a7;
+  border: 1px solid black;
+  width: 90%;
+}
+
+main section .row-even .basso{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #1333a7;
+  border: 1px solid black;
+  width: 90%;
+}
+
+main section .height-temp{
+  height: 400px; /*da eliminare*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color: #23272A;
+  height: 300px;
+  padding: 10px;
+  color: white;
+}
+
+footer .container section.top{
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .colonna{
+  color: black;
+  background-color: yellow;
+  padding-right: 10px;
+  width: 20%;
+  gap: 0 20px;
+}
+
